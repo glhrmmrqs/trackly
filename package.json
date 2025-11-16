@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "start cmd /c \"node --watch ./src/server.js\" & start firefox http://localhost:9999"
+    "start": "start cmd /c \"node --watch ./src/server.js\""
   },
   "keywords": [],
   "author": "Guilherme Marques <marques.guilhermeh@gmail.com>",
