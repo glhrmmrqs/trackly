@@ -1,8 +1,16 @@
+// Setando ferramentas
 import express from "express"
 import mongoose from "mongoose"
 const app = express()
 app.use(express.json())
 
+// Importando models
+import Artistas from "./models/artistas.js"
+import Musicas from "./models/musicas.js"
+import Playlists from "./models/playlists.js"
+import Usuarios from "./models/usuarios.js"
+
+// Setando rotas
 app.get("", (req, res) => {
     res.end("Homepage")
 })
